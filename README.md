@@ -18,3 +18,8 @@
 
 1. Teclar `npm start` tanto en el proyecto del [servidor](https://github.com/SoniaZhang9/bimbles-api) como en este proyecto, en el orden mencionado.
 2. Se va ha abrir http://localhost:3000 en su navegador.
+3. Iniciar sesión con usuario de prueba: 
+   - Nombre usuario: normal
+   - Contraseña: normal
+   
+    ![inicio](https://github.com/SoniaZhang9/bimbles-front/assets/78765878/62e95bce-95e7-4693-adc0-b9ee12d622f8)
