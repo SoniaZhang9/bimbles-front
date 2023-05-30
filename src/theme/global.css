@@ -1,0 +1,91 @@
+:root {
+    --light-background: #FFF1CA;
+    --light-primary: #CED7AF;
+    --seconday-main: #F98638;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Nunito Sans', 'Roboto', 'Arial', sans-serif;
+    padding-right: 0 !important;
+}
+
+p.MuiListItemText-secondary{
+    margin-left: 1.2em;
+    max-width: 400px;
+}
+
+.sidePanel .MuiFormControlLabel-label {
+    font-size: 1.25em;
+}
+
+.light-background {
+    background-color: var(--light-background);
+    width: 35vw;
+    height: 100vh;
+    position: absolute;
+    right: 0;
+    z-index: -999;
+}
+
+.main-img {
+    width: 55vw;
+    height: 90vh;
+    position: absolute;
+    right: 0;
+    top: 8vh;
+}
+
+a {
+    text-underline: none;
+    color: #F98638;
+}
+
+@media only screen and (max-width: 600px) {
+
+    .light-background {
+        width: 100%;
+        position: relative;
+        right: unset;
+        z-index: -999;
+    }
+
+    .main-img {
+        display: none;
+    }
+
+    .login.light-background {
+        display: none
+    }
+
+    .plants-img {
+        display: none;
+    }
+
+    section#welcome .bienvenida {
+        text-align: center;
+    }
+
+    section#final {
+        height: unset;
+    }
+
+    section#welcome .MuiButton-root {
+        position: relative;
+        right: unset;
+        margin-top: 3rem;
+    }
+
+
+    section#final .MuiTypography-root{
+        padding: 0 1.8rem 5rem 1.8rem ;
+        text-align: center;
+        width: unset;
+        position: unset;
+    }
+}
+

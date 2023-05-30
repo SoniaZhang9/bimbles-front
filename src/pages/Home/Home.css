@@ -1,0 +1,63 @@
+section {
+    height: 100vh;
+}
+
+section#recomendations {
+    height: auto;
+    width: 90%;
+    margin: auto;
+}
+
+section#preferences, section#final {
+    background-color: var(--light-background);
+    padding-top: 4.3rem;
+    position: relative;
+}
+
+section#preferences{
+    height: unset;
+    padding: 5rem 0;
+}
+
+section#final .MuiTypography-root {
+    width: 27vw;
+    position: absolute;
+    right: 10%;
+    top: 44%;
+}
+
+.plants-img {
+    width: 60vw;
+    height: 100vh;
+    position: absolute;
+}
+
+header.bienvenida {
+    width: 40vw;
+    position: absolute;
+    left: 10vw;
+    top: 31vh;
+}
+
+header.bienvenida h1 {
+    font-weight: 400;
+}
+
+header.bienvenida span {
+    color: var(--seconday-main);
+    font-weight: 800;
+}
+
+@media only screen and (max-width: 900px) {
+    .mushroom-img {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    header.bienvenida {
+        width: 80vw;
+    }
+}
+
+
