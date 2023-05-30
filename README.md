@@ -1,5 +1,5 @@
 # PFG | ETSISI - UPM 
-***Implementación de un sistema de recomendaci´n basado en el filtrado colaborativo para la asistencia de personas alergicas o con necesidades especiales***
+***Implementación de un sistema de recomendación basado en el filtrado colaborativo para la asistencia de personas alergicas o con necesidades especiales***
 
 ## Instalación
 1. Descargar el proyecto en su ordenador local.
