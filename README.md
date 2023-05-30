@@ -16,5 +16,5 @@
     ![prueba](https://github.com/SoniaZhang9/bimbles-front/assets/78765878/265435a9-4e1a-4996-a7d7-eab0fee39bcf)
 ## Ejecución
 
-1. Teclar `npm start` tanto en el proyecto del servidor como en este proyecto, en el orden mencionado.
+1. Teclar `npm start` tanto en el proyecto del [servidor](https://github.com/SoniaZhang9/bimbles-api) como en este proyecto, en el orden mencionado.
 2. Se va ha abrir http://localhost:3000 en su navegador.
