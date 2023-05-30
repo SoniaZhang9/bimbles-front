@@ -22,4 +22,3 @@
    - Nombre usuario: normal
    - Contraseña: normal
    
-    ![inicio](https://github.com/SoniaZhang9/bimbles-front/assets/78765878/62e95bce-95e7-4693-adc0-b9ee12d622f8)
