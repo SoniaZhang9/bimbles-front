@@ -22,3 +22,7 @@
    - Nombre usuario: normal
    - Contraseña: normal
    
+   
+## Diagrama de paquetes
+
+![pckg-front](https://github.com/SoniaZhang9/bimbles-front/assets/78765878/418fd462-1d4c-4a0d-a7a4-0d240c129637)
