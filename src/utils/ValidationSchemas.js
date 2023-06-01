@@ -82,10 +82,6 @@ const preferencesSchema = yup.object().shape({
         .transform((_, val) => val?.filter((i) => i !== false)),
 })
 
-setLocale({
-    string: {
-        min: `Debe tener como mínimo $\{min} caracteres`,
-    },
-})
+
 
 export { userSchema, itemSchema, loginSchema, preferencesSchema }

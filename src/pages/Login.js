@@ -21,6 +21,7 @@ import { useTheme } from '@mui/material/styles'
 import AuthService from '../utils/AuthService'
 import { loginSchema } from '../utils/ValidationSchemas'
 import restMethods from '../utils/RestMethods'
+import {setLocale} from "yup"
 
 function Login() {
     // ----------- control data ----------
@@ -47,6 +48,11 @@ function Login() {
         formState: { errors },
     } = useForm({
         resolver: yupResolver(loginSchema),
+    })
+    setLocale({
+        string: {
+            min: `Debe tener como mínimo $\{min} caracteres`,
+        },
     })
 
     // ----------- submit function ----------

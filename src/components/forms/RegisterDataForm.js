@@ -21,8 +21,9 @@ import AccordionSummary from '@mui/material/AccordionSummary'
 import ExpandMoreIcon from '@mui/icons-material/ExpandMore'
 import AccordionDetails from '@mui/material/AccordionDetails'
 import Accordion from '@mui/material/Accordion'
-import { userSchema } from '../../utils/ValidationSchemas'
+import { userSchema} from '../../utils/ValidationSchemas'
 import restMethods from '../../utils/RestMethods'
+import {setLocale} from "yup"
 
 export default function RegisterDataForm({ setSuccess }) {
     // ----------- control data ----------
@@ -37,13 +38,18 @@ export default function RegisterDataForm({ setSuccess }) {
         setOpenAlert(false)
     }
 
-    // ----------- server call ----------
+    // ----------- schema validation ----------
     const {
         register,
         handleSubmit,
         formState: { errors },
     } = useForm({
         resolver: yupResolver(userSchema),
+    })
+    setLocale({
+        string: {
+            min: `Debe tener como mínimo $\{min} caracteres`,
+        },
     })
 
     // ----------- submit function ----------
