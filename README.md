@@ -1,5 +1,5 @@
 # PFG | ETSISI - UPM 
-**Implementacion de un sistema de recomendacion basado en el filtrado colaborativo para la asistencia de personas alergicas o con necesidades especiales**
+***Implementación de un sistema de recomendación basado en el filtrado colaborativo para la asistencia de personas alergicas o con necesidades especiales***
 
 ## Instalación
 1. Descargar el proyecto en su ordenador local.
@@ -12,9 +12,17 @@
     ```
     npm install
    
-    ```   
-    ![prueba](https://github.com/39mwan/bimbles-front/assets/69095050/0f76179c-14b1-4c13-bb50-613e68b8db72)
+    ``` 
+    ![prueba](https://github.com/SoniaZhang9/bimbles-front/assets/78765878/265435a9-4e1a-4996-a7d7-eab0fee39bcf)
 ## Ejecución
 
-1. Teclar `npm start` tanto en el proyecto del servidor como en este proyecto, en el orden mencionado.
+1. Teclear `npm start` tanto en el proyecto del [servidor](https://github.com/SoniaZhang9/bimbles-api) como en este proyecto, en el orden mencionado.
 2. Se va ha abrir http://localhost:3000 en su navegador.
+3. Iniciar sesión con usuario de prueba: 
+   - Nombre usuario: normal
+   - Contraseña: normal
+   
+   
+## Diagrama de paquetes
+
+![pckg-front](https://github.com/SoniaZhang9/bimbles-front/assets/78765878/418fd462-1d4c-4a0d-a7a4-0d240c129637)
